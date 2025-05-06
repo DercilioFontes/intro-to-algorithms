@@ -16,6 +16,7 @@ def find_duplicates(arr):
 arr = [1, 2, 3, 4, 5, 1, 2]
 result = find_duplicates(arr)
 print(f"Duplicate elements: {result}")  # Output: Duplicate elements: [1, 2]
+
 # Test cases
 assert find_duplicates([1, 2, 3, 4, 5, 1, 2]) == 1
 assert find_duplicates([1, 2, 3, 4, 5]) == None

@@ -22,6 +22,7 @@ arr = [1, 2, 3, 4, 5]
 target = 3
 result = linear_search(arr, target)
 print(f"Element {target} found at index: {result}")  # Output: Element 3 found at index: 2
+
 # Test cases
 assert linear_search([1, 2, 3, 4, 5], 3) == 2
 assert linear_search([1, 2, 3, 4, 5], 6) == -1
